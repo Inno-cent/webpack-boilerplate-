@@ -14,11 +14,11 @@ logo.src = webpackLogo
 const heading = document.createElement('h1')
 heading.textContent = test()
 
-// Test a background image url in CSS
+// Testing a background image url in CSS
 const imageBackground = document.createElement('div')
 imageBackground.classList.add('image')
 
-// Test a public folder asset
+// Testing a public folder asset
 const imagePublic = document.createElement('img')
 imagePublic.src = '/assets/example.png'
 
